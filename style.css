@@ -1,0 +1,315 @@
+@import url(
+'https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100, 300, 400, 500, 600, 700, 800, 900&display=swap');
+ 
+/* font-family: 'Big Shoulders Text', cursive; */
+/*Updated navbar style by Iatidel*/
+
+@media (min-width:768px) {
+    .navbar {
+        height: 120px;
+    }
+    .navbar .nav-link {
+        padding: 50px 25px;
+       
+    }
+}
+.navbar .nav-link{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.navbar .nav-link:hover {
+    background-color: #d26e2b;
+}
+/*reservation section*/
+.hero{
+    background: url(reservation-background.jpg) no-repeat center center /cover;
+    height: 515px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reservation-form{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 25px 50px ;
+}
+.form-group{
+    flex: 1 25%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.form-group .form-control{
+    border-radius: 0%;
+    display: flex;
+    padding-left: 45px;
+    display: flex;
+}
+
+.form-group i{
+    color: #d26e2b;
+    font-size: 20px;
+    position: absolute;
+    left: 15px;
+
+}
+.reservation-button {
+    background-color: #d26e2b;
+    color: white;
+    border:none;
+    width: 100%;
+    border-radius: 0;
+    padding: 12px;
+    text-transform:uppercase ;
+    font-weight: 500;
+}
+/*conatct section*/
+.contact{
+    background: url(contact.jpg) no-repeat center center /cover;
+    height: 515px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-form{
+    margin: 0 auto;
+}
+.contact-form .form-control{
+    background-color:white;
+    border: none;
+    
+}
+.contact-form .form-group i{
+    top: 10px;
+}
+
+
+
+
+/*-------------------------------------------------*/
+
+.nav-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+ 
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+}
+ 
+.nav-flex-row li a {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #000;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+ 
+.nav-flex-row li a:hover {
+    background: #E7E7E7;
+}
+ 
+.section-intro {
+    height: 820px;
+    background-image: url(img/foddiee.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.section-intro h1 {
+    text-align: center;
+    color: #000;
+    font-size: 4em;
+    font-weight: 700;
+}
+ 
+.section-intro header {
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.link-to-book-wrapper {
+    flex: 1;
+}
+ 
+.about-section {
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3c0;
+    padding: 50px 30px;
+}
+ 
+.link-to-book {
+    color: #ffffff;
+    display: block;
+    border: 2px solid #ffffff;
+    padding: 5px 10px;
+}
+ 
+a.link-to-book:hover {
+    background-color: #ffffff;
+    color: #95999e;
+    text-decoration: none;
+}
+ 
+.about-section p,
+.about-section h3 {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+ 
+.carousel-inner {
+    height: 700px;
+}
+ 
+.row-flex {
+    display: flex;
+    flex-direction: row;
+}
+ 
+.flex-column-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 30px 20px;
+}
+ 
+.btn.btn-primary {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #ffffff;
+    background-color: #95999e;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    border: 0;
+}
+ 
+.btn.btn-primary:hover {
+    background-color: #747474;
+}
+ 
+.opening-time,
+.contact-address {
+    flex: 1;
+    margin: 30px 20px;
+    font-size: 1.2em;
+}
+ 
+.form-group p {
+    font-size: 1.2em;
+}
+ 
+.opening-time p span,
+.contact-address p span {
+    display:inline-block;
+}
+ 
+@media (min-width:577px) and (max-width: 800px) {
+ 
+    .section-intro {
+        height: 500px;
+    }
+ 
+    .about-section p,
+    .about-section h3 {
+        font-size: 20px;
+    }
+ 
+    .carousel-inner {
+        height: auto;
+    }
+ 
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
+ 
+@media screen and (max-width: 576px) {
+    .section-intro {
+        height: 300px;
+    }
+ 
+    .about-section {
+        padding: 30px;
+    }
+ 
+    .section-intro h1 {
+        font-size: 2em;
+    }
+ 
+    .about-section p,
+    .about-section h3 {
+        font-size: 15px;
+    }
+ 
+    .carousel-inner {
+        height: auto;
+    }
+ 
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .row-flex h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+ 
+    .form-group p {
+        font-size: 15px;
+    }
+ 
+    .opening-time p span,
+    .contact-address p span {
+        font-size: 15px;
+        text-align: center;
+    }
+ 
+}
+ 
+.carousel-item img {
+    background-repeat:repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+/* Updated Footer by iatidel */
+.footer{
+    background-color: rgb(24, 22, 22);
+}
+.footer p{
+    padding: 25px;
+    color: #d26e2b;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0;
+}
